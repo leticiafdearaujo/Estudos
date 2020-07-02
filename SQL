@@ -1,4 +1,0 @@
-SELECT type, SUM(calories) AS total_calories FROM exercise_logs
-    GROUP BY type
-    HAVING total_calories > 150
-    ;
