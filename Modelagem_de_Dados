@@ -1,0 +1,75 @@
+Bosnon Treinamentos - https://www.youtube.com/playlist?list=PLucm8g_ezqNoNHU8tjVeHmRGBFnjDIlxD
+34 - Modelagem de Dados - Projeto Prático - Testes Finais no Banco de Dados
+
+- Após criar o BD faça testes dos dados;
+- Faça joins entre as Tabelas utilizando PK e FK;
+
+35 - Modelagem de Dados - Recursos para Estudo e Finalização do Curso - https://www.youtube.com/watch?v=B14xfl5wVrU&list=PLucm8g_ezqNoNHU8tjVeHmRGBFnjDIlxD&index=35
+
+- Link's úteis:
+http://www.macoratti.net/cbmd1.htm
+https://www.devmedia.com.br/guia/modelagem-de-dados/34654
+https://www.edx.org/course/introduction-to-data-modeling?source=aw&awc=6798_1594320577_9b2d76e5f1f5b66d847dedb02dc8a0d7&utm_source=aw&utm_
+medium=affiliate_partner&utm_content=text-link&utm_term=301045_https%3A%2F%2Fwww.class-central.com%2F
+
+Livros...
+
+36 - 12 dicas de Boas Práticas em Modelagem de Dados
+
+1 - Nomes de Objetos
+Devem ser descritivos
+2 - Tipos dos Dados
+Usar os menores valores possíveis para otimizar a performance. 
+3 - Normalizar as Tabelas
+Normalizar até a 3ª Forma Normal
+4 - Usar e nomear Constraints
+Não deixe que o banco determine o nome
+5 - Identificação dos elementos do MER
+- 1 Entidades primeiro
+- 2 Relacionamentos na sequência
+- 3 Atributos de entidades por último
+- 4 Atributos de relacionamentos, se houver
+6 - Tabelas Associativas
+7 - Relacionamentos n-ários
+8 - Documentação
+Criar DER Detalhado
+Criar o Dicionário de Dados
+Na codificação, usar comentátios para descrever os scripts
+9 - Prefixos de nomes de objetos
+Manter um padrão para toda a modelagem
+Tabela - tb ou tbl
+View - vw
+Banco de Dados - db
+Procedimento armazenado - sp
+Trigger - tg
+10 - Nomes de Tabelas e Colunas
+Use singular
+Não use acentuação, espaços e caracteres especiais
+11 - Levantamento e Análise de Requisitos
+Pergunte o máximo que puder, anote tudo fornecido pelo cliente/usuário
+Dúvidas pergunte.
+12 - Campos de Chave Primárias
+Tabelas sempre devem possuir uma chave primária
+Procure usar chaves naturais, sempre que possíveis;
+Entre uma chave composta ou surrogada, prefira esta última
+Procure usar tipos numéricos em vez de caractere, para economizar recursos
+e aumentar a performance
+
+Dicas Bônus
+1 - Usar Views
+Procure usar views para ocultar complexidade, fornecer dados agregados e restringir
+o acesso a linhas e colunas das tabelas
+2 - Evite Select * para não interferir na performance
+3 - Campos de Senha
+Sempre use criptografia de preferência usando algoritmos fortes e salt, 
+a descriptação deve ocorrer na aplicação, quando for necessário
+4 - Sempre utilizar Procedures e Views
+Aumento de Performance,
+Diminuem possibilidade de erros
+Simplificam codificação da aplicação
+5 - Usar indices em colunas muito consultadas
+Aumento de performance
+
+
+
+
