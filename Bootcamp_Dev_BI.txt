@@ -1,0 +1,39 @@
+Fundamentos - Desenvolvedor Business Intelligence
+
+Capítulo 1
+*** Definição de BI ***
+Ele o apresenta como um termo guarda-chuva, capaz de contemplar uma variedade de tecnologias, conhecimentos e estratégias usados para analisar e organizar os dados gerados durante as execuções dos processos inerentes a um determinado negócio.
+
+*** Objetivos de BI ***
+O foco de soluções de BI é facilitar o entendimento do negócio das organizações, fornecendo a todos os níveis das organizações informações relevantes sobre suas operações internas e sobre o ambiente externo, incluindo clientes e competidores, parceiros e fornecedores. O ambiente externo inclui ainda variáveis independentes que possam impactar no negócio, como tecnologia, leis, economia mundial, entre outros.
+
+*** Arquitetura de BI ***
+
+-> ETL (Extraction, Transformation and Loading): processo responsável por extrair os dados das bases operacionais (transacionais) da organização, por efetuar transformações a fim de gerar informações válidas para a análise e apoio ao processo decisório e, por último, por armazená-las em um repositório que facilite o acesso às informações.
+-> Repositório de dados analíticos: são representados pelos Data Warehouses (DW), repositórios de dados que utilizam modelagens (geralmente modelagem dimensional) que podem dispor os dados de maneira mais natural para a análise e o processo de decisão.
+-> O último componente é a camada de apresentação. Essa camada pode utilizar uma série de técnicas e/ou ferramentas para auxiliar o consumo e apresentação das informações armazenadas pelo DW.
+
+*** Diferenças entre Bancos de Dados Relacionais e Dimensionais ***
+
+Pensa em um banco relacional como aquele que gerencia as compras de supermercado. Transações no caixa o tempo todo.
+O dimensional é algo estruturado para lhe dar informações de quantos produtos foram vendidos em um dia ou horário por exemplo.
+
+*** Características do Data Warehouse ***
+
+Orientado por assunto
+Integrado
+Variável no tempo (série temporal)
+Não-volátil
+
+*** Data Marts ***
+
+Dependente
+Independente
+
+*** Estrutura do Data Warehouse ***
+Data Sources
+Data Staging Area
+Data Presentation Area
+
+Capítulo 2
+Utilizar a Matriz de Maturidade para identificar onde a empresa se encontra
