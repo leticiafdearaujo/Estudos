@@ -26,7 +26,9 @@ CREATE TABLE CLIENTE (
 	
 /* Tipagem de Tabelas de Banco de Dados*/
 
-Texto: CHAR e VARCHAR
-Números: FLOAT E INT
-Fotos e Documentos: BLOB
-Textos extensos: TEXT
+CHAR(10) - Usa 10 bytes. Não varia pois preenche o restante dos campos com espaço.
+Mais performática pois não varia. Utilizar quando nunca variar ex: CPF, UF...etc
+VARCHAR(10) - Usa a quant de bites ocupada.
+ENUM - Funciona como Combox. Somente no MySQL
+INT - Não usar números que não serão utilizados para cálculos. Números inteiros.
+FLOAT (10,2) - Números reais, com casas decimais. 10 casas no total com 2 depois da virgula;
