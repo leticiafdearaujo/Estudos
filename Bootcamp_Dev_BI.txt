@@ -18,6 +18,8 @@ O foco de soluções de BI é facilitar o entendimento do negócio das organiza�
 Pensa em um banco relacional como aquele que gerencia as compras de supermercado. Transações no caixa o tempo todo.
 O dimensional é algo estruturado para lhe dar informações de quantos produtos foram vendidos em um dia ou horário por exemplo.
 
+https://www.igti.com.br/blog/modelagem-relacional-x-multidimensional/#:~:text=A%20modelagem%20relacional%20representa%20o,on%2Dline%20(OLTP).&text=J%C3%A1%20a%20modelagem%20multidimensional%2C%20ou,nas%20mais%20diferentes%20perspectivas.
+
 *** Características do Data Warehouse ***
 
 Orientado por assunto
@@ -37,3 +39,33 @@ Data Presentation Area
 
 Capítulo 2
 Utilizar a Matriz de Maturidade para identificar onde a empresa se encontra
+
+Capítulo 3
+Etapas do Projeto de BI:
+Justificativa
+Planejamento
+Análise
+Design
+Contrução
+Implantação
+
+Capitulo 4
+Planejamento do Projeto de BI:
+Gerenciamento do Projeto de BI
+Definição do Projeto de BI: Metas e Objetivos, Escopo do Projeto, Riscos de Projeto, Restrições do Projeto, Premissas, Procedimentos de Controle de Mudança, Procedimentos de gerenciamento de problemas
+Planejamento de Projeto de BI: Atividades e tarefas, Técnicas de estimativas, Atribuição de recursos, Dependência de tarefas, Depedência de recursos, Métodos do Caminho Critico,
+Horários do Projeto.
+
+Capitulo 5
+Ciclo Analitico da Inteligência de Negócios - Depois de entregue o projeto devemos aplicar as seguintes atividades:
+Monitoramento de Atividades, Identificação das exceções, Determinação dos fatores causais, Modelagem de alternativas, Atuação e acompanhamento dos resultados.
+
+Capitulo 6
+Tipos de Soluções de BI
+
+As aplicações de BI podem ser divididas em grupos que correspondem à forma de acesso e ao tipo de informação fornecida. O tipo de relatório está relacionado ao usuário, à frequência e ao valor da decisão a ser tomada.
+O sistema de informação operacional é formado por operações rotineiras, e normalmente trabalha com um grande volume de operações de entrada e saída. A
+maioria dos sistemas de informação estão neste nível e são caracterizados pela existência de muitos formulários de cadastros, relatórios e outras operações rotineiras. Geralmente são provenientes dos sistemas transacionais das empresas com relatórios estáticos e apoiam em tomadas de decisões de pequeno impacto, mas de grande frequência. Exemplos: formulários de cadastros, relatórios de conferência de dados, listagens, consultas e modificações de dados.
+O sistema de informação tático é formado por operações de apoio na tomada de decisões. Tem função gerencial e trabalha com informações agrupadas. Este tipo de sistema usa as informações operacionais para criar mecanismos de gerenciamento das organizações. São caracterizados por relatórios onde o usuário pode selecionar alguns parâmetros e filtros e apoia decisões de médio impacto e média frequência. Exemplos: Projeção de vendas para o mês seguinte; Análise de clientes, produtos ou mercado; Lucro efetivo por produto; Comparativo de desempenho da empresa, segmentos ou produtos. Relatórios analíticos e sintéticos.
+O sistema de informação estratégico é formado por operações estratégicas; apoia a alta diretoria filtrando as informações fundamentais e altamente estratégicas. São caracterizados por relatórios dinâmicos, onde o próprio usuário “monta” a informação a ser exibida através da junção de relatórios e do uso de cálculos e análises mais elaboradas. As decisões provenientes deste tipo de informação são de alto impacto e podem levar um longo tempo para ser tomada. Exemplos: Sistemas de controle de tráfego aéreo, sistemas de UTI e neonatal, controle de trânsito, sistemas que apoiam a alta direção das organizações e governos, entre outros.
+Exemplos: Consultas de Acesso Direto, Relatórios padrão, BI Operacional, Aplicativos analíticos, Gestão do conhecimento, Inteligência competitiva, Data Mining, Dashboards e Balanced Scorecards
